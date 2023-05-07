@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.85rem;
+    color:#232323;
+    font-weight: 10;
+    text-decoration: none;
+}
+img {
+    height: 40px;
+    margin-top: 35px;
+}
+
+#G20{
+    height: 40px;
+    margin-top: 30px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.size-btn{
+    border: none;
+    background-color: white;
+    margin: -3px;
+}
+
+.size-btn:hover{
+    cursor: pointer;
+}
+
+#small{
+    font-size: 0.65em;
+}
+
+#normal{
+    font-size: 0.90em;
+}
+
+#large{
+    font-size: 1.01em;
+}
+#IITRLogo{
+    margin-right: auto;
+    margin-left: 5vw;
+    display: inline;
+}
+
+#light-btn{
+    border-color: #1A76BB;
+    box-shadow: 0;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 2px;
+    background-color: white;
+    font-size: 1.01em;
+    height: 24px;
+    width: 24px;
+}
+#dark-btn{
+    background-color: #1A76BB;
+    font-size: 1.01em;
+    border: none;
+    color: white;
+    margin: 4px;
+    height: 24px;
+    width: 24px;
+}
+#light-btn:hover{
+    cursor:pointer;
+}
+#dark-btn:hover{
+    cursor:pointer;
+}
+
+.sides{
+    margin-top:0;
+    padding:0;
+}
+
+#font-sizes{
+ margin-right: 2vw;
+}
+
+#btns{
+    margin-right: 2vw;
+}
+#language{
+    margin-right: 8vw;
+}
+
+.upper-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -5px;
+}
+
+.lower-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2px;
+}
+
+#super-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.info{
+    font-size: 0.75em;
+}
+
+#webmail{
+    margin-right: 1.9vw;
+    margin-left: 0.4vw;
+}
+
+#contact{
+    margin-right: 1.5vw;
+}
+
+#horirule{
+    margin-right: 7.7vw;
+}
+#searchLogo{
+    margin-left: -7.3vw;
+    margin-right: 7vw;
+    height: 25px;
+    margin-bottom: 20px;
+}
+#searchLogo:hover{
+ cursor: pointer;
+}
+#lower-rule{
+    margin-right: 6.5%;
+    margin-left: 4.5%;
+    margin-top: 7px;
+}
+.lang{
+    font-weight: 500;
+}
+
+.lang:hover{
+    text-decoration: underline;
+}
+
+.nav-div{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.dropdown-menu{
+    display: none;
+    background-color: #f0f1f6;
+    padding: 7px;
+    list-style: none;
+}
+
+.drop:hover .dropdown-menu{
+    display:block;
+    z-index: 1;
+}
+
+.drop:hover > a{
+    font-weight: 500;
+    background-color: #f0f1f6;
+}
+
+.drop > a{
+    font-size: 0.94rem;
+}
+
+.dropdown-menu > li > a{
+    font-size: 1rem;
+}
+
+.dropdown-menu > li:hover a{
+    font-weight: 500;
+}
+
+.dropdown-menu > li{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.info:hover{
+    text-decoration: underline;
+}
+.dropdown-menu{
+    position:absolute;
+    min-width: 10%;
+}
+
+.side{
+    display: none;
+}
+
+#about:hover .side{
+    display: inline;
+    margin-left: 8px;
+}
+
+#about:hover {
+    text-decoration: underline;
+}
+
+.dropside-menu{
+    display:none;
+}
+
+#ham{
+    display: none;
+}
+
+#list{
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+
+}
+#total{
+    display: none;
+}
+
+#institute-div{
+    display:none;
+}
+
+#admissions-div{
+    display:none;
+}
+
+#administration-div{
+    display:none;
+}
+
+#academics-div{
+    display:none;
+}
+
+#campus-div{
+    display:none;
+}
+
+#departments-div{
+    display:none;
+}
+
+#careers-div{
+    display:none;
+}
+
+#placements-div{
+    display:none;
+}
+
+#resources-div{
+    display:none;
+}
+
+#ham-btn{
+    display:none;
+}
+
+@media (min-width: 850px) and (max-width: 1060px){
+    .drop > a {
+        font-size: 10px;
+    }
+
+    .dropdown-menu > li > a{
+        font-size: 12px;
+    }
+    #total{
+    display: none;
+    }
+
+} 
+
+@media (max-width: 850px){
+
+    .nav-div{
+        display:none;
+    }
+
+     #searchLogo, #super-div{
+        display: none;
+    }
+
+    #G20{
+        margin-right: 40px;
+    }
+
+    #ham{
+        display: block;
+        height: 18px;
+    }
+
+    .sidebar{
+        margin-top: 30px;
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+
+    }
+    .side-btn{
+        background: rgba(255, 255, 255, 1);
+        height: 40px;
+        width: 100%;
+        font-size: 14px;
+        border-style: none;
+        text-align: left;
+    }
+
+    #button-div{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    #light{
+        border-style: solid;
+        border-color: blue;
+        margin-right: -40%;
+    }
+
+    #size-div{
+        margin-top: 18px;;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #smallA{
+        margin-right: 8px;
+    }
+    #normalA{
+        margin-right: 8px;
+    }
+    #languages{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 18px;
+    }
+
+    #bottom-div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        height: 100px;
+        list-style-type: none;
+        margin-left: 7px;
+        }
+
+    #ham-btn{
+        background: rgba(255, 255, 255, 1);
+        border-style: none;
+    }
+
+    #total{
+        display: flex;
+    }
+
+    .side-divs{
+        background: #f0f1f6;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+
+    #visible{
+        width: 40%;
+    }
+
+    #ham-btn{
+        display:block;
+    }
+
+    .link{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+
+    }
+
+    .list{
+        margin-top: 4%;
+    }
+
+    #middle-1{
+        display: flex;
+        justify-content: center;
+        padding: 0.4rem;
+    }
+
+    .size-b{
+        margin: 5px;
+    }
+
+    #middle-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .size-b-2{
+        margin: 5px;
+    }
+
+    #middle-3{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 14px;
+    }
+
+    .lang-b:hover{
+        text-decoration: underline;
+    }
+
+ 
+    #b-2{
+        font-size: 1rem;
+    }
+
+    #b-3{
+        font-size: 1.2rem;
+    }
+
+    #h-line{
+        border: 0.5px solid #0067B3DE;
+    }
+
+    #admin{
+        padding-right: 0.2rem;
+    }
+
+    .side-btn:hover{
+        background-color: grey;
+    }
+
+}
+
+@media (max-width: 440px){
+    #ham, #ham-btn{
+        width: 15px;
+    }
+
+    #IITRLogo{
+       height: 25px
+    }
+
+    #G20{
+        height: 25px;
+    }
+}
+
